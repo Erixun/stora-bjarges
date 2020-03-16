@@ -63,7 +63,7 @@ body header:first-child {
 }
 
 #header1 {
-  background-image: url("./images/Eksta\ Bjärges\ 1.31\ -\ ladugård.jpg");
+  background-image: url("./images/eb-ladugard.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 65%;
@@ -179,9 +179,6 @@ section {
 #partners-article section {
   width: 50%;
   text-align: center;
-}
-#partners-article section strong p {
-  /* padding-left: 20px; */
 }
 #partners-article section ul {
   list-style: none;
