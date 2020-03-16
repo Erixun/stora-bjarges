@@ -1,0 +1,301 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+  list-style: circle;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset^ */
+
+body {
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  margin: auto;
+}
+body header:first-child {
+  border-bottom: 1px solid black;
+}
+
+#header1 {
+  background-image: url("./images/Eksta\ Bjärges\ 1.31\ -\ ladugård.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 65%;
+  background-size: 100%;
+  height: 44vh;
+}
+
+#header2 {
+  margin-top: 5px;
+  width: 98%;
+  /* border-bottom: 1px solid black; */
+  padding-left: 10px;
+}
+
+header nav {
+  display: inline;
+}
+
+header h5 {
+  margin: 0 0;
+}
+h1 {
+  font-size: 22px;
+  padding: 2px;
+}
+header h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h1 span {
+  color: darkgreen;
+}
+nav div {
+  overflow: hidden;
+}
+nav div div {
+  width: max-content;
+}
+div#valkommen {
+  float: left;
+}
+div.nav-div {
+  float: right;
+  margin: 17px 0;
+}
+nav a {
+  padding: 0 40px 0 0;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.current {
+  color: darkgreen;
+}
+nav a:hover {
+  color: green;
+}
+h1 a:hover {
+  color: black;
+}
+
+
+main {
+  min-height: max-content;
+  /* max-width: 1100px; */
+  margin: auto;
+  text-align: center;
+  height: 70vh;
+}
+iframe {
+  min-width: 74%;
+  min-height: 500px;
+  height: 100%;
+  background-color: lightgrey;
+}
+iframe#gmap-bjarges {
+  min-width: 40%;
+  min-height: 280px;
+  height: 100%;
+}
+article {
+  margin-top: 80px;
+}
+#kontakt-article {
+  display: flex;
+}
+#kontakt-article section {
+  margin-top: 30px;
+  padding-left: 100px;
+  width: 40%;
+}
+section {
+  width: 50%;
+  display: inline-block;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+#omoss-article {
+  display: flex;
+  justify-content: center;
+}
+#omoss-article section strong {
+  text-align: center;
+}
+#tjanster-article {
+  display: flex;
+  justify-content: center;
+}
+#partners-article {
+  display: flex;
+  justify-content: center;
+}
+#partners-article section {
+  width: 50%;
+  text-align: center;
+}
+#partners-article section strong p {
+  /* padding-left: 20px; */
+}
+#partners-article section ul {
+  list-style: none;
+}
+li a img {
+  padding: 10px;
+  background-color: #dfded5;
+}
+#partners-article figure {
+  margin-top: 40px;
+  /* margin-left: 40px; */
+  /* display: flex; */
+}
+#partners-article figure img {
+  border: none;
+  width: 70%;
+  margin: 20px 50px;
+}
+aside {
+  width: 250px;
+  background-color:lightgray;
+  display: flex;
+  justify-content: center;
+}
+img {
+  border: 1px solid black;
+  margin-bottom: 2px;
+  padding-bottom: 0;
+}
+aside figure {
+  width: 70%;
+  float: none;
+  margin-top: 30px;
+}
+aside figure img {
+  border-radius: 150px;
+  margin-bottom: 10px;
+}
+aside figure figcaption {
+  text-align: center;
+}
+#hem-article figure {
+  margin-left: 30px;
+}
+#tjanster-article figure {
+  margin-top: 25px;
+  padding-left: 50px;
+  width: 50%;
+}
+#hem-article section {
+  padding: 0 25px;
+}
+p, ul, li {
+  font-size: 20px;
+}
+#kontakt-lista {
+  line-height: 22px;
+  list-style: decimal;
+}
+p {
+  max-width: 100%;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+li {
+  margin: 20px;
+}
+figure {
+  width: 40%;
+  float: left;
+}
+figure img {
+  width: 100%;
+  float: right;
+  margin-bottom: 2px;
+}
+
+
+footer {
+  overflow: hidden;
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid black;
+}
+footer nav {
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin: 5px 0;
+}
+footer div:first-child {
+  margin-top: 12px;
+}
+#kontakt-footer {
+  /* height: 8vh; */
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+#kontakt-footer div {
+  margin: 10px;
+  width: 70%;
+  display: flex;
+  /* justify-content: center; */
+}
+#kontakt-footer div span {
+  margin: auto;
+  display: flex;
+  flex: 1 1 auto;
+  /* justify-content: center; */
+}
