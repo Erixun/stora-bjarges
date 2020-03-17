@@ -49,6 +49,9 @@ table {
 }
 /* css reset^ */
 
+:root {
+  --header-footer-bg-color: lightgoldenrodyellow;
+}
 body {
   font-family: Georgia, Arial, Helvetica, sans-serif;
 }
@@ -74,7 +77,6 @@ body header:first-child {
 #header2 {
   margin-top: 5px;
   width: 98%;
-  /* border-bottom: 1px solid black; */
   padding-left: 10px;
 }
 
